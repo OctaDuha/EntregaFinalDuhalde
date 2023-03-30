@@ -111,6 +111,12 @@ p {
 	background-color: #fff;
 }
 
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+	color: white;
+  }  
+
 .about-wrapper {
 	width: 100%;
 	background-color: #191c31;

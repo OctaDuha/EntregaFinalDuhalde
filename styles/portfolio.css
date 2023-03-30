@@ -1,4 +1,4 @@
-.portfolder-navbar {
+.portfolio-navbar {
 	background-color: #191c31;
 	color: #fff;
 	height: 100%;
@@ -6,6 +6,21 @@
 	padding: 2rem;
 }
 
-.portfolder-section {
+.navbar-item a:hover {
+	background-color: aqua;
+	color: #191c31 !important;
+	transition: background-color ease-in .4s;
+	border-radius: 20px;
+}
+
+.portfolio-section {
+	background-color: #191c31;
+}
+
+.portfolio-container {
+	background-color: #191c31;
+}
+
+.porfolio-footer {
 	background-color: #191c31;
 }
