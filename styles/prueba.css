@@ -1,0 +1,91 @@
+html, body, .container-fluid {
+	height: 100%;
+  }
+
+.fill-height {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
+
+.style-navbar {
+  background-color: #191c31;
+  color: #fff;
+  padding: 2rem;
+}
+
+.nav-item-link {
+  margin-right: 1rem;
+}
+
+.navbar-item a:hover {
+  background-color: aqua;
+  color: #191c31 !important;
+  transition: background-color ease-in 0.4s;
+  border-radius: 20px;
+}
+
+.index-container {
+  background-color: #191c31;
+}
+
+.flex-item {
+  width: calc(100% - 1rem);
+}
+
+.toggle-menu,
+.info-content_subtitle,
+.contact-toggle_menu {
+  display: none;
+}
+
+.content-info {
+  font-size: clamp(4vw, 1.5em, 3em);
+}
+
+.info-content-p {
+  font-size: clamp(2vw, 1.5em, 3em);
+}
+
+span {
+  color: aqua;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.download-cv:hover {
+  background-color: #fff;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: solid aqua;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: aqua;
+  margin: 3rem 1.5rem 3rem 0;
+  cursor: pointer;
+}
+
+.index-footer {
+  background-color: #191c31;
+}

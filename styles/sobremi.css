@@ -1,0 +1,76 @@
+.style-navbar {
+	background-color: #191c31;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	padding: 2rem;
+}
+
+.nav-item-link {
+	margin-right: 1rem;
+  }
+
+.navbar-item a:hover {
+	background-color: aqua;
+	color: #191c31 !important;
+	transition: background-color ease-in .4s;
+	border-radius: 20px;
+}
+
+.flex-item {
+  width: calc(100% - 1rem);
+  text-align: center;
+}
+.flex-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.sobremi-img {
+	border: 7px solid aqua;
+}
+
+.divider {
+	height: 4px;
+	width: 60px;
+	background-color: aqua;
+	margin-top: 5px;
+	margin-bottom: 2.5em;
+}
+
+.sobremi-info {
+	margin-right: 50px;
+	padding: 3em;
+}
+
+.sobremi-cv {
+	padding: 10px 20px;
+	background-color: aqua;
+	border: none;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.sobremi-container {
+	background-color: #191c31;
+}
+
+.sobremi-cv {
+	padding: 10px 20px;
+	background-color: aqua;
+	border: none;
+	border-radius: 20px;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.sobremi-cv:hover {
+	background-color: #fff;
+}
+
+.sobremi-footer {
+	background-color: #191c31;
+}
+
