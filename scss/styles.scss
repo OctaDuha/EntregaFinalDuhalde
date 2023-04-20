@@ -1,7 +1,11 @@
 @import "contacto";
 @import "portfolio";
+@import "sobremi";
+
 
 $main-color: aqua;
+$secondary-color: #191c31;
+$terciary-color: #fff;
 
 html,
 body,
@@ -10,8 +14,8 @@ body,
 }
 
 .style-navbar {
-  background-color: #191c31;
-  color: #fff;
+  background-color: $secondary-color;
+  color: $terciary-color;
   padding: 2rem;
 }
 
@@ -21,13 +25,13 @@ body,
 
 .navbar-item a:hover {
   background-color: $main-color;
-  color: #191c31 !important;
+  color: $secondary-color !important;
   transition: background-color ease-in 0.4s;
   border-radius: 20px;
 }
 
 .index-container {
-  background-color: #191c31;
+  background-color: $secondary-color;
 }
 
 .flex-item {
@@ -66,7 +70,7 @@ p {
   cursor: pointer;
 
   &:hover {
-    background-color: #fff;
+    background-color: $terciary-color;
   }
 }
 
@@ -88,5 +92,5 @@ p {
 }
 
 .index-footer {
-  background-color: #191c31;
+  background-color: $secondary-color;
 }

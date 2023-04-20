@@ -1,7 +1,3 @@
-$main-color: aqua;
-$secondary-color: #191c31;
-$terciary-color: #fff;
-
 .contact-container {
   background-color: #191c31;
 }
@@ -45,16 +41,16 @@ $terciary-color: #fff;
   margin-bottom: 1em;
   background: none;
   border: none;
-  border-bottom: 1px solid $terciary-color;
-  color: $terciary-color;
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
 
 .form textarea {
   height: 150px;
   background: none;
-  color: $terciary-color;
+  color: #fff;
   padding: 1.5em;
-  border: 1px solid $terciary-color;
+  border: 1px solid #fff;
 }
 
 .btn-submit {
@@ -62,11 +58,12 @@ $terciary-color: #fff;
   margin: 1em;
   border: none;
   text-transform: uppercase;
-  background-color: $main-color;
+  background-color: aqua;
   border-radius: 20px;
   cursor: pointer;
-
-  &:hover {
-    background-color: $terciary-color;
-  }
 }
+.btn-submit:hover {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=contacto.css.map */

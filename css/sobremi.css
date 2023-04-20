@@ -1,0 +1,53 @@
+.flex-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.sobremi-img {
+  border: 7px solid aqua;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: aqua;
+  margin-top: 5px;
+  margin-bottom: 2.5em;
+}
+
+.sobremi-info {
+  margin-right: 50px;
+  padding: 3em;
+}
+
+.sobremi-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sobremi-container {
+  background-color: #191c31;
+}
+
+.sobremi-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.sobremi-cv:hover {
+  background-color: #fff;
+}
+
+.sobremi-footer {
+  background-color: #191c31;
+}
+
+/*# sourceMappingURL=sobremi.css.map */
