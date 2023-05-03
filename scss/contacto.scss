@@ -23,8 +23,11 @@ $terciary-color: #fff;
   margin-bottom: 2.5em;
 }
 
+.img-contact {
+  max-width: 700px; width: 100%; min-width: 300px
+}
+
 .contact-form {
-  flex: 1;
   margin-left: 2em;
 }
 
@@ -35,9 +38,8 @@ $terciary-color: #fff;
 .form {
   display: flex;
   flex-direction: column;
-  width: 30vw;
   margin-top: 2em;
-  margin-right: 10em;
+  margin-right: 2em;
 }
 
 .form input {
